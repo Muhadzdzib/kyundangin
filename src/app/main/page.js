@@ -192,7 +192,7 @@ export default function Home() {
               Dari galeri foto, peta lokasi, hingga musik latar, semua tersedia.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Card 1 */}
               <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
                 <div className="text-indigo-500 mb-4 text-5xl">🕒</div>
@@ -202,40 +202,6 @@ export default function Home() {
                 <p className="text-gray-600 text-sm">
                   Undangan bisa diakses sesuai kebutuhan, mulai dari 2 Minggu
                   hingga 1 tahun penuh.
-                </p>
-              </div>
-
-              {/* Card 2 */}
-              <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
-                <div className="text-pink-500 mb-4 text-5xl">🎨</div>
-                <h3 className="text-[#34656D] text-lg font-semibold mb-2">
-                  Gratis Pilih Template
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Pilih template favoritmu secara gratis dari berbagai desain
-                  elegan.
-                </p>
-              </div>
-
-              {/* Card 3 */}
-              <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
-                <div className="text-green-500 mb-4 text-5xl">💻</div>
-                <h3 className="text-[#34656D] text-lg font-semibold mb-2">
-                  Request Design Website
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Sesuaikan desain website undangan sesuai dengan tema acara.
-                </p>
-              </div>
-
-              {/* Card 4 */}
-              <div className="bg-white shadow-md rounded-xl p-6 text-center hover:shadow-lg transition">
-                <div className="text-yellow-500 mb-4 text-5xl">🖼️</div>
-                <h3 className="text-[#34656D] text-lg font-semibold mb-2">
-                  Request Design Assets
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Tambahkan elemen desain khusus agar undangan semakin personal.
                 </p>
               </div>
 
@@ -346,7 +312,7 @@ export default function Home() {
             Sesuaikan undangan impianmu dengan budget yang pas..
           </p>
 
-          <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+          <div className="grid gap-8 md:grid-cols-2 max-w-3xl mx-auto">
             {[
               {
                 name: "Basic",
@@ -354,8 +320,6 @@ export default function Home() {
                 features: [
                   "✅Masa Aktif 1 Minggu",
                   "✅Gratis Pilih Template",
-                  "❌Request Design Website",
-                  "❌Request Design Assets",
                   "❌Request Musik Latar",
                   "✅Countdown Timer",
                   "✅Cerita (Opsional)",
@@ -372,36 +336,17 @@ export default function Home() {
                 features: [
                   "✅Masa Aktif 1 Bulan",
                   "✅Gratis Pilih Template",
-                  "❌Request Design Website",
-                  "❌Request Design Assets",
-                  "✅Musik Latar",
+                  "✅Request Musik Latar",
                   "✅Countdown Timer",
                   "✅Cerita (Opsional)",
-                  "✅Galeri (Max 25 Foto)",
+                  "✅Galeri (♾️ Foto & Video)",
                   "✅Cashless Gift",
                   "✅Reservasi Tamu",
                   "✅Buku Tamu",
                   "✅Peta Lokasi",
                 ],
               },
-              {
-                name: "Exclusive",
-                price: "Rp175.000",
-                features: [
-                  "✅Masa Aktif 1-12 Bulan",
-                  "✅Gratis Pilih Template",
-                  "✅Request Design Website",
-                  "✅Request Design Assets",
-                  "✅Musik Latar",
-                  "✅Countdown Timer",
-                  "✅Cerita (Opsional)",
-                  "✅Galeri (♾️)",
-                  "✅Cashless Gift",
-                  "✅Reservasi Tamu",
-                  "✅Buku Tamu",
-                  "✅Peta Lokasi",
-                ],
-              },
+          
             ].map((pkg, idx) => (
               <div
                 key={idx}
