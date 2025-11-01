@@ -5,5 +5,5 @@ export const metadata = {
 };
 
 export default function PernikahanLayout({ children }) {
-  return <div className="min-h-screen bg-pink-50">{children}</div>;
+  return <div className="min-h-screen">{children}</div>;
 }
