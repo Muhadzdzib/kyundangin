@@ -41,14 +41,14 @@ export default function Home() {
       ],
     },
     {
-      category: "Acara Kantor ",
+      category: "Lainnya ",
       items: [
-        { title: "Acara Kantor Template 1", link: "#" },
-        { title: "Acara Kantor Template 2", link: "#" },
-        { title: "Acara Kantor Template 3", link: "#" },
-        { title: "Acara Kantor Template 4", link: "#" },
-        { title: "Acara Kantor Template 5", link: "#" },
-        { title: "Acara Kantor Template 6", link: "#" },
+        { title: "Template 1", link: "#" },
+        { title: "Template 2", link: "#" },
+        { title: "Template 3", link: "#" },
+        { title: "Template 4", link: "#" },
+        { title: "Template 5", link: "#" },
+        { title: "Template 6", link: "#" },
       ],
     },
   ];
