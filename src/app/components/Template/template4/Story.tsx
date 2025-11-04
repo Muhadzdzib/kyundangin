@@ -53,7 +53,7 @@ export default function Story() {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl font-semibold mb-4 text-pink-200">
-            Dari Sudut Pandang Ali
+            Dari Sudut Pandang who
           </h3>
           <p className="text-gray-100 leading-relaxed text-base md:text-lg">
             Hari itu, aku tidak mencari apa pun. Dunia terasa seperti biasanya
@@ -84,7 +84,7 @@ export default function Story() {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl font-semibold mb-4 text-pink-200">
-            Dari Sudut Pandang Bunga
+            Dari Sudut Pandang who?
           </h3>
           <p className="text-gray-100 leading-relaxed text-base md:text-lg">
             Saat pertama kali mengenalnya, aku tidak menyangka bahwa seseorang

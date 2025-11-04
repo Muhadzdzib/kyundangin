@@ -82,7 +82,7 @@ const Hero = () => {
           transition={{ delay: 0.5, duration: 1.2 }}
           className="text-4xl sm:text-5xl md:text-7xl font-serif font-semibold text-white tracking-wide"
         >
-          Ali <span className="text-[#1D546C]">&</span> Bunga
+          who <span className="text-[#1D546C]">&</span> who?
         </motion.h1>
 
         {/* Teks Undangan */}
