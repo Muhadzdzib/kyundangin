@@ -54,7 +54,7 @@ const Header = () => {
         boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
       }}
     >
-      {/* ✅ Container, desktop tetap, mobile ada padding */}
+      {/* Container, desktop tetap, mobile ada padding */}
       <div className="max-w-6xl w-full mx-auto flex justify-between items-center py-4 px-4 md:px-0 font-jakarta text-[#34656D]">
         {/* Logo */}
         <div className="font-bold text-4xl">
